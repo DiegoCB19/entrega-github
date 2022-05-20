@@ -118,9 +118,10 @@ article p {
 }
 
 footer {
-    background-color: #62429e;
     font-size: 20px;
-    
+    background-image: linear-gradient(top, violet, purple);
+    width: 200px;
+    height: 100%;
 }
 foot{
     grid-area: foot;
@@ -147,5 +148,7 @@ footer p a{
 .redes, a:hover{
     color: rgb(42, 41, 43);
 }
-
+.degradez{
+    background-image: linear-gradient(top, violet, purple);
+}
 
