@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Jugando Aprendo</title>
 </head>
 
 
-<body>
-    <header>
-        <h1>
+<body> 
+    <div class="container-fluid">
+    <header class="row">
+        <h1 class="col-4">
             Escuela de Musica Jugando Aprendo
         </h1>
-        <nav>
+        <nav class="col-8">
             <ul>
                 <li><a href="index.html"> home </a></li>
                 <li> <a href="pages/somos.html"> somos </a> </li>
@@ -26,16 +29,16 @@
         </nav>
     </header>
     <main class="main" >
-    <section >
-        <h2 id="h2"> Clases </h2>
-        <article class="primer">
+    <section class="row">
+        <h2 id="h2 col-4"> Clases </h2>
+        <article class="primer col-4">
             <img class="imgclasesnatural"  src="img/clases_natural.jpg" alt="clase_grupales_en vivo">
             <p class="mainp">
 
                 Clases de musica, donde nos especializamos en instrumentos de cuerda, viento y percusion. Junto a esto estan; Guitarra, charango, ukelele, violin, violin chelo, flauta traversa, teclado y otros.  
             </p>
         </article>
-        <article class="segundo">
+        <article class="segundo col-4">
             <h2 class="h2">
                 Alumnos en Clases
             </h2>
@@ -44,7 +47,7 @@
                 se divertiran, estara conectado con la naturaleza y la musica donde desarrolaran tecnicas especiales en todo momento y acompañado de tutores de la escuela.
             </p>
         </article>
-        <article class="tercero">
+        <article class="tercero col-4">
             <h2 class="h2">
                 Dinamicas
             </h2>
@@ -55,8 +58,8 @@
         </article>
     </section>
     </main>
-    <footer>
-    <div class="degradez">
+    <footer class="row">
+    <div class="degradez col-12" >
         <p>
             <a href="/pages/contacto.html" target="_blank" rel="noopener noreferrer"> contactanos aqui¡¡ </a>
             <div class="redes">
@@ -65,5 +68,9 @@
         </p>
     </div>
     </footer>
+</div>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
 </body>
 </html>

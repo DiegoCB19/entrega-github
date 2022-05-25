@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #3f2a65;
+    background-color: #918b8b;
     height: 20vh;
     grid-template-columns: 4fr,4fr;
     grid-template-rows: 4fr 4fr;
@@ -17,6 +17,7 @@ body {
                         justify-items: center;
                         align-items: center;
 }
+
 #h2{
     display: flex;
     grid-area: h2;
@@ -52,7 +53,7 @@ header{
 
 header h1 {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     text-transform: uppercase;
     background-color: #62429e;
@@ -63,10 +64,10 @@ h1{
 }
 header nav{
     text-align: center;
-    height: auto;
+    height: 200%;
     color: darkgoldenrod;
     background-color: #62429e;
-    padding-top: 10px;
+    padding: 10px;
 }
 nav{
     grid-area: nav;
@@ -100,7 +101,8 @@ section article h2{
     justify-self: center;
 }
 img {
-    width: 240px;
+    width: 230px;
+    height: 300px;
     margin-left: 5px;
     margin: 10px;
 }
@@ -131,7 +133,7 @@ foot{
 footer p a{
     margin-left: 5px;
     text-decoration: none;
-    color: darkcyan ;
+    color: rgb(54, 54, 54) ;
     display: flex;
 }
 .redes{
@@ -142,7 +144,7 @@ footer p a{
 
 .redes a{
     text-decoration: none;
-    color: darkcyan ;
+    color: rgb(54, 54, 54) ;
     display: flex;
 }
 .redes, a:hover{
